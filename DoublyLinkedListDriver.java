@@ -20,7 +20,7 @@ public class DoublyLinkedListDriver {
             } catch (FileNotFoundException fnfe) {
                 System.out.println("File not found.");
             }
-            runInt(list);(list);  
+            runInt(list);  
         } else if (listType.equals("d")) {
             DoublyLinkedList<Double> list = new DoublyLinkedList<>();
             try {
