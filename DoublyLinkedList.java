@@ -39,7 +39,7 @@ public class DoublyLinkedList<T extends Comparable<T>> {
         }
     }
 
-    public <T> void deleteItem(T item) throws NullPointerException {
+    public void deleteItem(T item) throws NullPointerException {
         if (item != null) {
             if (length == 0) {
                 System.out.println("Cannot delete from empty list");

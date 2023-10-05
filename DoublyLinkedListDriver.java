@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.Serializable;
 import java.util.Scanner;
 
 public class DoublyLinkedListDriver {
@@ -134,7 +133,6 @@ public class DoublyLinkedListDriver {
         }
         keyboard.close();
     }
-}
 
 public static void runDouble(DoublyLinkedList<Double> list) {
         
