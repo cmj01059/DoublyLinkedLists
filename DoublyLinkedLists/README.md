@@ -1,18 +1,15 @@
-## Getting Started
+Canon Jackson
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+DeleteSubstitution
+Iterate until start of lower bound
+Delete until end of upper bound
+O(n^2)
 
-The workspace contains two folders by default, where:
+ReverseList
+set each node's back to its next and viveversa while iteratiing head to the end
+O(n)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Swap Alternate
+In pairs, nodes swap next and backs with eachother
+O(n)
